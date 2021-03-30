@@ -1,0 +1,30 @@
+h1{
+    position: fixed;
+    left: 40%;
+    padding-bottom: 20%;
+}
+h1:hover{
+    text-decoration: underline;
+    color: red;
+}
+img{
+    margin-top: 50px;
+    padding:20px;
+}
+img:hover{
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+li{
+    text-decoration: none;
+    display: inline;
+    margin-left:30px;
+    font-size: 20px;
+}
+nav{
+    padding-right:80%;
+    position: fixed;
+    background-color: blueviolet;
+    color:white;
+    
+}
