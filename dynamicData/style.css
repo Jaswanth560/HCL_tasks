@@ -1,0 +1,36 @@
+body
+{
+    text-align: center;
+    background-color: rgb(209, 204, 196);
+}   
+#heading{
+color:black;
+padding: 3px;
+}
+.mainPart{
+    background-color: white;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+    margin-left: 23%;
+}
+input{
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30%;
+    width: 50%;
+}
+th,td{
+  padding:60px;
+  padding-top: 10px;
+  padding-left: 92px;
+  padding-bottom: 20px;
+}
+table{
+    text-align: center;
+    margin-left: 23%;
+    margin-top: 5%;
+    background-color: white;   
+}
