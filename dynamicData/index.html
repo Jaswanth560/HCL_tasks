@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -14,26 +14,72 @@
             <h1 id="heading">
                 Employee Details
             </h1>
-            <input id="input" type="text" name="input" placeholder="Employee name" required><br>
-            <input id="para2" type="text" name="para2" placeholder="Employee Id" required><br>
-            <input id="output" type="text" placeholder="Designation"><br>
-            <input id="para3" type="text" placeholder="location"><br>
+            <input id="employeeName" type="text" placeholder="Employee name" required><br>
+            <input id="employeeId" type="text"  placeholder="Employee Id" required><br>
+            <input id="employeeDesignation" type="text" placeholder="Designation"><br>
+            <input id="employeeLocation" type="text" placeholder="location"><br>
             <button type="submit" id="add" onClick="create();">Create</button>      
         </div>
-                <table>
-                    <thead>
+        <div>
+            <table>
+                <thead>
                     <tr>
-                        <th>ID</th>
-                        <th>Product Name</th>
-                        <th>Seller</th>
-                        <th>Price</th>
+                        <th>Employee Name</th>
+                        <th>Employee Id</th>
+                        <th>Employee Designation</th>
+                        <th>EMployee Location</th>
                     </tr>
-                    </thead>
-                </table>
+                </thead>
+            </table>
+        </div>
                 <script src="script.js"></script>
 
         </p>
     
 
 </body>
+</html>-->
+<html>
+    <head>
+        <title>Employee</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>  
+        <div class="formData">
+            <h1><i class="fas fa-chalkboard-teacher"></i>Employee Data</h1>
+            <form>
+                <input type="text" id="employeeName" placeholder="Employee Name">
+                <input type="number" id="employeeId" placeholder="Employee Id">
+                <input type="text" id="employeeDesignation"placeholder="Designation">        
+                <input type="text" id="employeeLocation" placeholder="Location">
+            </form>
+            <button type="submit " onClick="create();">Submit</button>
+        </div>
+        <div class="tableData">
+            <table class="employee"> 
+                <thead>
+                    <th>Employee name</th>
+                    <th>Employee Id</th>
+                    <th>Designation</th>
+                    <th>Location</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>jaswanth</td>
+                        <td>4233</td>
+                        <td>software</td>
+                        <td>chennai</td>
+                    </tr>
+                    <tr>
+                        <td>jaswanth</td>
+                        <td>4233</td>
+                        <td>software</td>
+                        <td>chennai</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <script src="./script.js"></script>
+        <script src="https://kit.fontawesome.com/9af19c1c05.js" crossorigin="anonymous"></script>
+    </body>
 </html>
