@@ -18,3 +18,5 @@ function create(){
     coloumn3Data.innerHTML=employeeDesignation;
     coloumn4data.innerHTML=employeeLocation;
 }
+
+    
